@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/HMP/logo.jpg" />
+    <link rel="stylesheet" href="Menu.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>KFC Menu</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="/HMP/logo.png" alt="" class="brand" />
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Contactus.html">Contact Us</a></li>
+        <li><a href="Aboutus.html">About Us</a></li>
+      </nav>
+      <div id="mySidenav" class="sidenav">
+        <h1 class="cart-title">Cart list</h1>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="cartbody">
+          <table id="orders">
+            <tr class="vcart_table_header">
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+            </tr>
+          </table>
+        </div>
+        <div class="vcart_bottom_container">
+          <table id="orders">
+            <tr class="">
+              <th>Grand Total:</th>
+              <th id="grand_total"></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <span
+        id="cartbutton"
+        style="font-size: 30px; cursor: pointer"
+        onclick="openNav()"
+        >Cart &#128722;</span
+      >
+    </header>
+    <div id="menu">
+      <h1 id="section">Menu</h1>
+      <div id="menu_row">
+        <div id="menu_col">
+          <h2>Korean</h2>
+          <div class="box">
+            <button class="product" onclick="KMenuModal1()">
+              <div id="image">
+                <img src="/Menu/Korean1.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Gimbap</h3>
+                <h4>₱75</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="KMenuModal2()">
+              <div id="image">
+                <img src="/Menu/Korean2.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Tteokbokki</h3>
+                <h4>₱110</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="KMenuModal3()">
+              <div id="image">
+                <img src="/Menu/Korean3.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Bibimbap</h3>
+                <h4>₱90</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="KMenuModal4()">
+              <div id="image">
+                <img src="/Menu/Korean4.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Kimchi</h3>
+                <h4>₱60</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="KMenuModal5()">
+              <div id="image">
+                <img src="/Menu/Korean5.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Samgyetang</h3>
+                <h4>₱150</h4>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div id="menu_col">
+          <h2>Filipino</h2>
+          <div class="box">
+            <button class="product" onclick="FMenuModal1()">
+              <div id="image">
+                <img src="/Menu/Filipino1.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Kare-Kare</h3>
+                <h4>₱70</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="FMenuModal2()">
+              <div id="image">
+                <img src="/Menu/Filipino2.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Adobong Manok</h3>
+                <h4>₱70</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="FMenuModal3()">
+              <div id="image">
+                <img src="/Menu/Filipino3.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Laing</h3>
+                <h4>₱50</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="FMenuModal4()">
+              <div id="image">
+                <img src="/Menu/Filipino4.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Kaldereta</h3>
+                <h4>₱80</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="FMenuModal5()">
+              <div id="image">
+                <img src="/Menu/Filipino5.webp" alt="" />
+              </div>
+              <div>
+                <h3>Menudo</h3>
+                <h4>₱80</h4>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div id="menu_col">
+          <h2>Coffee</h2>
+          <div class="box">
+            <button class="product" onclick="CMenuModal1()">
+              <div id="image">
+                <img src="/Menu/Coffee-Cappucino.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Cappucino</h3>
+                <h4>₱60</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="CMenuModal2()">
+              <div id="image">
+                <img src="/Menu/Coffee-Dark.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Dark Coffee</h3>
+                <h4>₱50</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="CMenuModal3()">
+              <div id="image">
+                <img src="/Menu/Coffee-Espresso.webp" alt="" />
+              </div>
+              <div>
+                <h3>Espresso</h3>
+                <h4>₱80</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="CMenuModal4()">
+              <div id="image">
+                <img src="/Menu/Coffee-Latte.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Coffee Latte</h3>
+                <h4>₱90</h4>
+              </div>
+            </button>
+          </div>
+          <div class="box">
+            <button class="product" onclick="CMenuModal5()">
+              <div id="image">
+                <img src="/Menu/Coffee_Cortado.jpg" alt="" />
+              </div>
+              <div>
+                <h3>Cortado</h3>
+                <h4>₱75</h4>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal-details"></div>
+    <script src="menu.js"></script>
+  </body>
+</html>
