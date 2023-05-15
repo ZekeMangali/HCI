@@ -7,20 +7,20 @@ const dish5 = document.getElementById("Coffee1");
 const dish6 = document.getElementById("Coffee2");
 
 dish1.addEventListener("click", () => {
-  dish.src = "/HMP/Korean1.png";
+  dish.src = "Korean1.png";
 });
 dish2.addEventListener("click", () => {
-  dish.src = "/HMP/Korean2.png";
+  dish.src = "Korean2.png";
 });
 dish3.addEventListener("click", () => {
-  dish.src = "/HMP/Filipino1.png";
+  dish.src = "Filipino1.png";
 });
 dish4.addEventListener("click", () => {
-  dish.src = "/HMP/Filipino2.png";
+  dish.src = "Filipino2.png";
 });
 dish5.addEventListener("click", () => {
-  dish.src = "/HMP/Coffee1.png";
+  dish.src = "Coffee1.png";
 });
 dish6.addEventListener("click", () => {
-  dish.src = "/HMP/Coffee2.png";
+  dish.src = "Coffee2.png";
 });

@@ -16,7 +16,7 @@ function KMenuModal1() {
                     </div>
                     <div class="modalBody">
                         <h1>Gimbap</h1>
-                        <img class="menuimg" src="/Menu/Korean1.jpg" alt="" class="prodImg" />
+                        <img class="menuimg" src="Korean1.jpg" alt="" class="prodImg" />
                         <h2>Gimbap, also romanized as kimbap, is a Korean dish made from cooked rice, vegetables, fish, and meat rolled in gim—dried sheets of seaweed—and served in bite-sized slices..</h2>
                     </div>
                     <div class="modalFooter">
@@ -56,7 +56,7 @@ function KMenuModal2() {
                       </div>
                       <div class="modalBody">
                           <h1>Tteokbokki</h1>
-                          <img class="menuimg" src="/Menu/Korean2.jpg" alt="" class="prodImg" />
+                          <img class="menuimg" src="Korean2.jpg" alt="" class="prodImg" />
                           <h2>Tteokbokki, or simmered rice cake, is a popular Korean food made from small-sized garae-tteok called tteokmyeon or commonly tteokbokki-tteok. Eomuk, boiled eggs, and scallions are some common ingredients paired with tteokbokki in dishes.</h2>
                       </div>
                       <div class="modalFooter">
@@ -96,7 +96,7 @@ function KMenuModal3() {
                         </div>
                         <div class="modalBody">
                             <h1>Bibimbap</h1>
-                            <img class="menuimg" src="/Menu/Korean3.jpg" alt="" class="prodImg" />
+                            <img class="menuimg" src="Korean3.jpg" alt="" class="prodImg" />
                             <h2>Bibimbap, sometimes romanized as bi bim bap or bi bim bop, is a Korean rice dish. The term bibim means "mixing" and bap is cooked rice. It is served as a bowl of warm white rice topped with namul and gochujang. Egg and sliced meat are common additions, stirred together thoroughly just before eating.</h2>
                         </div>
                         <div class="modalFooter">
@@ -136,7 +136,7 @@ function KMenuModal4() {
                           </div>
                           <div class="modalBody">
                               <h1>Kimchi</h1>
-                              <img class="menuimg" src="/Menu/Korean4.jpg" alt="" class="prodImg" />
+                              <img class="menuimg" src="Korean4.jpg" alt="" class="prodImg" />
                               <h2>Kimchi, is a traditional Korean banchan consisting of salted and fermented vegetables, most commonly using napa cabbage or Korean radish. A wide selection of seasonings are used, including gochugaru, spring onions, garlic, ginger, and jeotgal, etc. Kimchi is also used in a variety of soups and stews.</h2>
                           </div>
                           <div class="modalFooter">
@@ -176,7 +176,7 @@ function KMenuModal5() {
                             </div>
                             <div class="modalBody">
                                 <h1>Samgyetang</h1>
-                                <img class="menuimg" src="/Menu/Korean5.jpg" alt="" class="prodImg" />
+                                <img class="menuimg" src="Korean5.jpg" alt="" class="prodImg" />
                                 <h2>Samgye-tang or ginseng chicken soup, meaning ginseng - chicken - soup in Korean, consists primarily of a whole young chicken filled with garlic, rice, jujube, and ginseng. Samgye-tang is a Korean traditional soup for body health. Samgye-tang is a representative summer health food.</h2>
                             </div>
                             <div class="modalFooter">
@@ -216,7 +216,7 @@ function FMenuModal1() {
                       </div>
                       <div class="modalBody">
                           <h1>Kare-Kare</h1>
-                          <img class="menuimg" src="/Menu/Filipino1.jpg" alt="" class="prodImg" />
+                          <img class="menuimg" src="Filipino1.jpg" alt="" class="prodImg" />
                           <h2>Kare-kare is a Philippine stew that features a thick savory peanut sauce. It is generally made from a base of stewed oxtail, beef tripe, pork hocks, calves' feet, pig's feet or trotters, various cuts of pork, beef stew meat, and occasionally offal.</h2>
                       </div>
                       <div class="modalFooter">
@@ -256,7 +256,7 @@ function FMenuModal2() {
                         </div>
                         <div class="modalBody">
                             <h1>Adobong Manok</h1>
-                            <img class="menuimg" src="/Menu/Filipino2.jpg" alt="" class="prodImg" />
+                            <img class="menuimg" src="Filipino2.jpg" alt="" class="prodImg" />
                             <h2>Adobong manok, often called "chicken adobo," is often considered the national dish of the Philippines. Although the origins of its name are are with the Spanish colonizers — adobo is the Spanish word for a marinade — Filipinos have been making tart, vinegar-based dishes since time immemorial.</h2>
                         </div>
                         <div class="modalFooter">
@@ -296,7 +296,7 @@ function FMenuModal3() {
                           </div>
                           <div class="modalBody">
                               <h1>Laing</h1>
-                              <img class="menuimg" src="/Menu/Filipino3.jpg" alt="" class="prodImg" />
+                              <img class="menuimg" src="Filipino3.jpg" alt="" class="prodImg" />
                               <h2>Laing, is a Filipino dish of shredded or whole taro leaves with meat or seafood cooked in thick coconut milk spiced with labuyo chili, lemongrass, garlic, shallots, ginger, and shrimp paste. It originates from the Bicol Region, where it is known simply as pinangat</h2>
                           </div>
                           <div class="modalFooter">
@@ -336,7 +336,7 @@ function FMenuModal4() {
                             </div>
                             <div class="modalBody">
                                 <h1>Kaldereta</h1>
-                                <img class="menuimg" src="/Menu/Filipino4.jpg" alt="" class="prodImg" />
+                                <img class="menuimg" src="Filipino4.jpg" alt="" class="prodImg" />
                                 <h2>Kaldereta or caldereta is a goat meat stew from the Philippines. Variations of the dish use beef, chicken, or pork. Commonly, the goat meat is stewed with vegetables and liver paste. Vegetables may include tomatoes, potatoes, olives, bell peppers, and hot peppers. Kaldereta sometimes includes tomato sauce.</h2>
                             </div>
                             <div class="modalFooter">
@@ -376,7 +376,7 @@ function FMenuModal5() {
                               </div>
                               <div class="modalBody">
                                   <h1>Menudo</h1>
-                                  <img class="menuimg" src="/Menu/Filipino5.webp" alt="" class="prodImg" />
+                                  <img class="menuimg" src="Filipino5.webp" alt="" class="prodImg" />
                                   <h2>Menudo, also known as ginamay or ginagmay, is a traditional stew from the Philippines made with pork and sliced liver in tomato sauce with carrots and potatoes. Unlike the Mexican dish of the same name, it does not use tripe or red chili sauce.</h2>
                               </div>
                               <div class="modalFooter">
@@ -416,7 +416,7 @@ function CMenuModal1() {
                         </div>
                         <div class="modalBody">
                             <h1>Cappucino</h1>
-                            <img class="menuimg" src="/Menu/Coffee-Cappucino.jpg" alt="" class="prodImg" />
+                            <img class="menuimg" src="Coffee-Cappucino.jpg" alt="" class="prodImg" />
                             <h2>A cappuccino is an espresso-based coffee drink and is traditionally prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.</h2>
                         </div>
                         <div class="modalFooter">
@@ -456,7 +456,7 @@ function CMenuModal2() {
                           </div>
                           <div class="modalBody">
                               <h1>Dark Coffee</h1>
-                              <img class="menuimg" src="/Menu/Coffee-Dark.jpg" alt="" class="prodImg" />
+                              <img class="menuimg" src="Coffee-Dark.jpg" alt="" class="prodImg" />
                               <h2>Dark Roast coffees are dark brown, even close to a blackened color. The beans are characterized by drawn-out oil that glosses the surface. Coffee made from a Dark Roast has a robust, full body. The flavors from the coffee's country of origin are almost entirely roasted out, taking on a very bold and smoky taste.</h2>
                           </div>
                           <div class="modalFooter">
@@ -496,7 +496,7 @@ function CMenuModal3() {
                             </div>
                             <div class="modalBody">
                                 <h1>Espresso</h1>
-                                <img class="menuimg" src="/Menu/Coffee-Espresso.webp" alt="" class="prodImg" />
+                                <img class="menuimg" src="Coffee-Espresso.webp" alt="" class="prodImg" />
                                 <h2>Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water is forced under 9–10 bars of pressure through finely-ground coffee beans. Espresso can be made with a wide variety of coffee beans and roast degrees.</h2>
                             </div>
                             <div class="modalFooter">
@@ -536,7 +536,7 @@ function CMenuModal4() {
                               </div>
                               <div class="modalBody">
                                   <h1>Coffee Latte</h1>
-                                  <img class="menuimg" src="/Menu/Coffee-Latte.jpg" alt="" class="prodImg" />
+                                  <img class="menuimg" src="Coffee-Latte.jpg" alt="" class="prodImg" />
                                   <h2>Caffè latte, often shortened to just latte in English, is a coffee drink of Italian origin made with espresso and steamed milk.</h2>
                               </div>
                               <div class="modalFooter">
@@ -576,7 +576,7 @@ function CMenuModal5() {
                                 </div>
                                 <div class="modalBody">
                                     <h1>Cortado</h1>
-                                    <img class="menuimg" src="/Menu/Coffee_Cortado.jpg" alt="" class="prodImg" />
+                                    <img class="menuimg" src="Coffee_Cortado.jpg" alt="" class="prodImg" />
                                     <h2>A cortado is a beverage consisting of espresso mixed with a roughly equal amount of warm milk to reduce the acidity. The milk in a cortado is steamed, but not frothy and "texturized" as in many Italian coffee drinks. The cortado comes from Spain, most likely Madrid, where it is commonly served.</h2>
                                 </div>
                                 <div class="modalFooter">
